@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="EveryDose.MainPage"
+             Title="EveryDose"
+             BackgroundColor="#F3F3F8"
+             
+             >
+    
+    <NavigationPage.TitleView>
+        <Label Text="EveryDose" TextColor="#FFFFFF" HorizontalOptions="Center" FontSize="24" FontAttributes="Bold" />
+    </NavigationPage.TitleView>
+
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Add"  Command="{Binding AddButtonCommand}" Order="Primary" Priority="0" />
+    </ContentPage.ToolbarItems>
+    <ContentPage.Content>
+        
+            <StackLayout Grid.Row="1">
+        <Label Text="PROFILE LIST" TextColor="#8C8C8C" FontSize="16" HorizontalOptions="Start" Margin="25,10,0,0" />
+            <CollectionView x:Name="collectionView"
+                            SelectionMode="Single" 
+                            ItemsSource="{Binding Profiles}" 
+                            SelectedItem="{Binding SelectedProfile}"
+                            SelectionChanged="OnProfileSelected" >
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <Grid Padding="10">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                           
+                        </Grid.RowDefinitions>
+                            <Label  Grid.Row="0" Text="{Binding FullName}" Style="{StaticResource CustomLabelStyle}" Margin="20,0,0,-9"/>
+
+                            <Label  Grid.Row="1" Text="{Binding DateOfBirth}" Style="{StaticResource CustomLabelStyle}" FontSize="14" Margin="21,0,0,0"/>
+                            <BoxView   Margin="20,0,0,0" Grid.Row="2" HeightRequest="1" BackgroundColor="LightGray" HorizontalOptions="FillAndExpand" />
+                        </Grid>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+        </StackLayout>
+       
+    </ContentPage.Content>
+
+</ContentPage>

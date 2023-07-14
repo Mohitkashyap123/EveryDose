@@ -1,0 +1,17 @@
+G:\Mohit-Prep\Xamarin\EveryDose\EveryDose\bin\Debug\netstandard2.0\EveryDose.deps.json
+G:\Mohit-Prep\Xamarin\EveryDose\EveryDose\bin\Debug\netstandard2.0\EveryDose.dll
+G:\Mohit-Prep\Xamarin\EveryDose\EveryDose\bin\Debug\netstandard2.0\ref\EveryDose.dll
+G:\Mohit-Prep\Xamarin\EveryDose\EveryDose\bin\Debug\netstandard2.0\EveryDose.pdb
+G:\Mohit-Prep\Xamarin\EveryDose\EveryDose\obj\Debug\netstandard2.0\EveryDose.csproj.AssemblyReference.cache
+G:\Mohit-Prep\Xamarin\EveryDose\EveryDose\obj\Debug\netstandard2.0\EveryDose.GeneratedMSBuildEditorConfig.editorconfig
+G:\Mohit-Prep\Xamarin\EveryDose\EveryDose\obj\Debug\netstandard2.0\App.xaml.g.cs
+G:\Mohit-Prep\Xamarin\EveryDose\EveryDose\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+G:\Mohit-Prep\Xamarin\EveryDose\EveryDose\obj\Debug\netstandard2.0\EveryDose.AssemblyInfoInputs.cache
+G:\Mohit-Prep\Xamarin\EveryDose\EveryDose\obj\Debug\netstandard2.0\EveryDose.AssemblyInfo.cs
+G:\Mohit-Prep\Xamarin\EveryDose\EveryDose\obj\Debug\netstandard2.0\EveryDose.csproj.CoreCompileInputs.cache
+G:\Mohit-Prep\Xamarin\EveryDose\EveryDose\obj\Debug\netstandard2.0\XamlC.stamp
+G:\Mohit-Prep\Xamarin\EveryDose\EveryDose\obj\Debug\netstandard2.0\EveryDose.dll
+G:\Mohit-Prep\Xamarin\EveryDose\EveryDose\obj\Debug\netstandard2.0\refint\EveryDose.dll
+G:\Mohit-Prep\Xamarin\EveryDose\EveryDose\obj\Debug\netstandard2.0\EveryDose.pdb
+G:\Mohit-Prep\Xamarin\EveryDose\EveryDose\obj\Debug\netstandard2.0\Views\NewProfilePageView.xaml.g.cs
+G:\Mohit-Prep\Xamarin\EveryDose\EveryDose\obj\Debug\netstandard2.0\Views\ProfileDetailPageView.xaml.g.cs
